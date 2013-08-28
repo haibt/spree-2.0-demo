@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
-
+gem 'rails'
 # Use sqlite3 as the database for Active Record
 group :production do
   gem 'pg'
@@ -12,13 +11,13 @@ group :development do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -39,7 +38,9 @@ end
 
 gem 'spree', github: 'spree/spree'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
-
+#gem 'spree_scrum2b_theme_demo', :path => '../spree_scrum2b_theme_demo'
+#gem 'spree_active_shipping', :git => "git://github.com/spree/spree_active_shipping"
+gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
